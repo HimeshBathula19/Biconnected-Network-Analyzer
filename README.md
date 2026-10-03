@@ -72,6 +72,7 @@ Testing
 Pytest
 ## Project Structure
 
+```text
 Biconnected-Network-Analyzer/
 │
 ├── backend/
@@ -89,6 +90,13 @@ Biconnected-Network-Analyzer/
 ├── Final Presentation.pptx
 ├── Final Report.docx
 └── README.md
+```
+
+---
+
+## Running the Project
+
+
 Running the Project
 Backend
 Open a terminal and navigate to the backend:
