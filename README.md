@@ -70,38 +70,21 @@ Pydantic
 Uvicorn
 Testing
 Pytest
-Project Structure
+## Project Structure
+
 Biconnected-Network-Analyzer/
 │
 ├── backend/
-│   ├── algorithms/
-│   │   ├── analyzer.py
-│   │   ├── articulation.py
-│   │   ├── biconnected.py
-│   │   ├── components.py
-│   │   └── dfs.py
-│   │
-│   ├── graph/
-│   ├── models/
-│   ├── tests/
-│   │   ├── test_analyzer.py
-│   │   ├── test_articulation.py
-│   │   ├── test_biconnected.py
-│   │   ├── test_components.py
-│   │   ├── test_dfs.py
-│   │   └── test_graph.py
-│   │
-│   ├── main.py
+│   ├── algorithms/       # Core DAA implementations
+│   ├── tests/            # Algorithm test suite
+│   ├── graph/            # Graph representation
+│   ├── models/           # Data models
+│   ├── main.py           # FastAPI entry point
 │   └── requirements.txt
 │
 ├── frontend/
-│   ├── src/
-│   │   ├── App.tsx
-│   │   ├── App.css
-│   │   ├── index.css
-│   │   └── main.tsx
-│   ├── package.json
-│   └── vite.config.ts
+│   ├── src/              # React application
+│   └── package.json
 │
 ├── Final Presentation.pptx
 ├── Final Report.docx
